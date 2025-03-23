@@ -5,7 +5,7 @@ from transformers import pipeline
 modelo = pipeline("text-generation", model="DeepESP/gpt2-spanish")
 
 # Crear la interfaz en Streamlit
-st.title("📚 Chatbot con GPT-2 en Español")
+st.title("📚 Chatbot con  CARPIO GPT en Español")
 st.write("Hazme una pregunta y te responderé.")
 
 # Entrada del usuario
